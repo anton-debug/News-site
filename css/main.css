@@ -1,0 +1,348 @@
+/* +++++++++++++++++++++++++++ main ++++++ */
+
+/* Левая колонка----------------------start */
+.central-container {
+	padding-top: 21px;
+}
+
+.col-left {
+	width: 249px;
+    background-color: #fff;
+    float: left;
+	margin-right: 20px;
+	padding-bottom: 25px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.col-left-points {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.col-left-points:last-child {
+	margin-bottom: 0;
+}
+
+.col-left-items {
+	padding-left: 18px;
+	padding-right: 17px;
+	margin-top: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn_all-news {
+	text-decoration: none;
+	text-align: center;
+    font-size: 14px;
+	color: #448ccb;
+	display: block;
+    width: 175px;
+	padding: 14px 43px;
+	margin: 0 auto;
+    border: 1px solid #448ccb;
+    border-radius: 50px;
+}
+
+.left-heading {
+	color: #000;
+    font-size: 20px;
+    line-height: 30px;
+	letter-spacing: -0.4px;
+	padding: 20px 18px 20px 17px;
+    margin: 0;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.9);
+}
+
+.news-item-text {
+	font-size: 14px;
+    font-weight: 400;
+	line-height: 21px;
+	margin: 0;
+    padding-top: 1px;
+}
+
+.text-item-dwn {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 8px 0;
+}
+
+.news-time-general {
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+}
+
+.news-time {
+	padding-right: 18px;
+	float: right; /* Обтекание времени и коментов справа, чтобы выровнять все по одной вертю линии */
+}
+
+.news-comments-count {
+	background: url("../img/icon-comments.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	margin-left: 22px;
+}
+
+.news-comments-ctr {
+	line-height: 30px;
+	letter-spacing: -0.24px;
+	background: url("../img/chat-center.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	margin-left: 20px;
+}
+
+.news-props::before {
+	content: '/';
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.news-props {
+	opacity: 0.8;
+	color: #91919f;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+}
+
+.news-time-icon {
+	background: url("../img/icon-time.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	float: left;
+}
+
+
+/* Курс валют */
+
+.courses__many {
+	margin: 10px 0 0;
+	text-align: center;
+	line-height: 20px;
+}
+
+.money_block {
+	font-style: italic;
+    font-weight: 700;
+    border-radius: 5px;
+    background: rgb(5, 142, 199);
+	background: linear-gradient(0deg, 
+			rgb(195, 237, 255) 0%, 
+			rgb(254, 254, 254) 100%);
+}
+
+.money_block p {
+	margin: 0;
+}
+
+/* //// Курс валют */
+
+
+/* Левая колонка-----------------------end */
+
+/* Центральная колонка----------------start */
+
+.col-centr {
+	width: 462px;
+	float: left;
+	margin-right: 20px;
+}
+
+.news-time-ctr {
+	float: right;  /* Обтекание времени и коментов справа, чтобы выровнять все по одной вертю линии */
+	margin-right: 56px;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+	
+}
+
+.news-time-icon-ctr {
+	background: url("../img/clock-center.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	float: left;
+	padding-right: 2px;
+}
+
+.list-central-news {
+	margin: 18px 0 0 0;
+	padding: 0;
+	column-count: 2;
+	column-gap: 20px;
+}
+
+.item-ctr-news {
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+/* .align:nth-child(2n) {
+	margin-bottom: 0;
+} */
+
+.col-centr-head {
+	background: #5d5a5a;
+	position: relative;
+	padding: 110px 65px 40px 20px;
+	color: #fff;
+	z-index: 1;
+	
+}
+
+	.img-item1 {
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
+
+.clock-img {
+	background: url("../img/clock-opacit.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.policy::before {
+	content: '/';
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.policy {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.main-heading {
+	font-size: 30px;
+	line-height: 1.2;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.day_month_main {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.content-ctr-news {
+	/* min-height: 232px; */
+	/* width: 221px; */
+	/* margin-bottom: 15px; */
+}
+
+.heading {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 2px 0 0px 0;
+	padding-right: 13px;
+}
+/* Центральная колонка----------------end */
+
+/* Центральная колонка=================DOWN_START */
+.column-dwn {
+	margin-top: 18px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.img-item2 {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.down-heading {
+	font-size: 30px;
+	line-height: 1.2;
+	margin-top: 21px;
+	margin-bottom: 41px;
+}
+
+.par-dwn {
+    margin-top: 21px;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+}
+
+.dwn-panel-1 {
+	width: 58.8%;
+	color:#fff;
+	background: #5d5a5a;
+	padding: 101px 85px 27px 20px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.dwn-panel-2 {
+	background-color: #fff;
+}
+
+.heading-right-panel {
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	width: 41.2%;
+	margin: 0;
+	padding: 28px 17px 21px 17px;
+	float: right;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.news-props-dwn::before {
+	content: "/";
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.news-props-dwn {
+    float: left;
+    margin-right: 14px;
+}
+
+.news-time-dwn {
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+}
+
+.time-icon-dwn {
+	background: url("../img/icon-time.png") no-repeat;
+	background-position: left;
+	padding-left: 15px;
+	float: left;
+}
+
+.down-items {
+	width: 41%;
+	margin: 0;
+	padding: 25px 14px 17px 14px;
+	float: right;
+}
+
+/* Заимствован класс у левой колонки */
+
+.col-dwn-item {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+.col-dwn-item:last-child {
+	margin-bottom: 0;
+}
+
+/* Центральная колонка----------------DOWN_END */

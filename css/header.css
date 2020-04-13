@@ -1,0 +1,161 @@
+/* ++++++++++++++++++++++++++       HEADER */
+/* Темная панель =======================
+=======================================*/
+
+.header_black {
+	padding-bottom: 33px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.black_bar {
+	color: #fff;
+    background-color: #00122f;
+    padding: 17px 0 18px 0;
+    margin-bottom: 40px;
+}
+
+.black_bar_left {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	float: left;
+}
+
+.black_bar_title {
+	text-decoration: underline;
+}
+
+.black_bar_time {
+	float: right;
+}
+
+/* ================================= */
+
+/* Панель с лого и поиском ==========
+====================================*/
+.info_header_bar {
+	margin-bottom: 35px;
+	vertical-align: middle;
+}
+
+.weather {
+	float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #91919f;
+    background: url("../img/weater.png") no-repeat;
+    background-position: left;
+    padding: 3px 0px 0px 39px;
+}
+
+.logo_header {
+	float: left;
+}
+
+.cities {
+	float: left;
+	margin-top: 12px;
+	margin-left: 60px;
+	padding-right: 15px;
+	color: #448ccb;
+	background: url("../img/down-arrow.png") no-repeat;
+	background-position: right;
+}
+
+.city_​​selection {
+	border-bottom: dashed 1px #448ccb;
+}
+
+.day_month {
+	float: left;
+	margin-top: 12px;
+	margin-left: 50px;
+	color: #91919f;
+}
+
+.time {
+	display: inline-block;
+    margin: 0 0 0 25px;
+    padding-left: 25px;
+    color: #91919f;
+    background: url("../img/clock.png") no-repeat;
+    background-position: left;
+}
+
+.form_search {
+	position: relative;
+	float: right;
+}
+
+.search-site {
+	width: 320px;
+	height: 45px;
+	padding: 0 40px 0 21px;
+	border-radius: 23px;
+	border: none;
+	background-color: #ebebeb;
+	opacity: 0.6;
+	color: #000000;
+	font-size: 14px;
+}
+
+.button_search {
+	width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../img/search.png") center no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+/* ============================================= */
+
+/* Навигационная часть в хедере =======
+======================================*/
+
+.header_nav-items {
+	list-style-type: none;
+	font-size: 0;
+	padding-left: 0;
+}
+
+.nav_link {
+	display: inline-block;
+    margin-right: 40px;
+}
+
+.nav_link:last-child {
+	margin-right: 0;
+}
+
+.menu_header {
+	display: inline-block;
+	font-size: 16px;
+	color: #000;
+	position: relative;
+}
+/* Полоска м/д пунктами меню */
+.menu_header::after {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background-color: #bfbfbf;
+	display: block;
+	right: -20px;
+	top: 50%;
+	transform: translateY(-50%) rotate(15deg);
+}
+
+/* Убираем последнюю черту в nav после последней ссылки */
+.nav_link:last-child .menu_header:after {  
+	display: none;
+}
+/* ================================== */
+
+/* +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++ END HEADER */

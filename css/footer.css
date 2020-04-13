@@ -1,0 +1,146 @@
+/* ============ FOOTER=====
+========================= */
+
+.info-footer {
+	background-color: #00122f;
+	color: #fff;
+	margin-top: 60px;
+	padding-top: 56px;
+}
+
+.nav-footer {
+	float: left;
+}
+
+
+.column1 {
+	margin: 0;
+	padding-left: 0;
+    list-style-type: none;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.column2 {
+	float: left;
+    margin-left: 200px;
+    padding: 0;
+}
+
+.column2-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 18px 0 0 0;
+}
+
+.col2-items {
+	margin-bottom: 15px;
+}
+
+.col2-items:last-child {
+	margin-bottom: 0;
+}
+
+.nav-footer-items {
+	margin-bottom: 14px;
+}
+
+.nav-footer-items:last-child {
+	margin-bottom: 0;
+}
+
+.footer-link {
+	/* color: #fff; */
+}
+
+/* -----Контакты----------- */
+
+.contacts {
+	float: right;
+}
+
+.contact-soc-item {
+	list-style-type: none;
+	margin-bottom: 26px;
+}
+
+.contact-soc-item:last-child {
+	margin-bottom: 0;
+}
+
+.contact-item {
+	margin: 0;
+	padding-left: 0;
+}
+
+.block-contact {
+	margin-top: 40px;
+}
+
+.contact-tel-mail {
+	font-style: normal;
+    margin: 0;
+	padding-left: 0;
+}
+
+.contact-soc {
+	display: inline-block;
+	margin-right: 17px;
+}
+
+.contact-soc:last-child {
+	margin-right: 0;
+}
+
+.footer-soc {
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer-item-vc {
+	background-image: url("../img/vk-1.png");
+}
+
+.footer-item-facebook {
+	background-image: url("../img/facebook-logo.png");
+}
+
+.footer-item-twitter {
+	background-image: url("../img/twitter-logo.png");
+}
+
+.footer-item-instagram {
+	background-image: url("../img/instagram.png");
+}
+
+.footer-contact {
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 35px;
+}
+
+.footer-link-tel {
+	background-image: url("../img/tel.png");
+}
+
+.footer-link-mail {
+	background-image: url("../img/email.png");
+}
+
+/* ------Копирайт------- */
+
+.copyright {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 55px;
+    border-top: 1px solid #9b9ea3;
+    text-align: center;
+    font-size: 13px;
+    color: #8d9198;
+}

@@ -1,0 +1,17 @@
+/* ASIDE------------------START */
+
+.col-right {
+	width: 249px;
+	float: right;
+}
+
+.aside-banner {
+	display: block;
+	margin-bottom: 17px;
+}
+
+.aside-banner:last-child {
+	margin-bottom: 0;
+}
+
+/* ASIDE-------------------END */
