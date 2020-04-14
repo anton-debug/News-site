@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- Подключаем в хедере, но могут быть проблемы, т.к. скрипты уже прогрузились,
+    а сама разметка нет, т.е. скриптам не с чем работать. Выход - в начале созданного
+js файла начинать с функции $(document).ready(function(){}, которая запускает наш js код
+только когда прогрузится разметка и стили, или же можно подключать скрипты перед закрывающим
+тэгом body -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
     <script src="./js/cursemoney.js"></script> 
 
@@ -215,11 +220,11 @@
                     </div>
 
                     <!-- Блок курса валют -->
-                    <div class="courses__many">
+                    <!-- <div class="courses__many">
                         <div class="money_block">
                             
                         </div>
-                    </div>
+                    </div> -->
                     <!-- // Блок курса валют -->
     
 
@@ -420,18 +425,22 @@
                     </ul>
                 </section>
             </div>
-            
-            <!-- Блок курса валют -->
-            <div class="courses__many">
-                <div class="money_block">
-                    
-                </div>
-            </div>
-            <!-- // Блок курса валют -->
-
             <!-- Центральная колонка======================DOWN_END -->
         </div>
     </main>
+
+    <!-- Блок курса валют -->
+    <article class="courses__many">
+        <div class="container">
+            <h2 class="courses-many__heding">Курс валют</h2>
+            <table class="money_block">
+                
+            </table>
+        </div>
+    </article>
+    <!-- // Блок курса валют -->
+    
+
 <!-- футер ===============================================Start -->
     <footer class="info-footer">
         <div class="container clearfix">

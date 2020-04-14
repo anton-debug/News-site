@@ -125,9 +125,16 @@
 	margin: 10px 0 0;
 	text-align: center;
 	line-height: 20px;
+	/* background-color: #fff; */
+}
+
+.courses-many__heding {
+	margin: 0px 0 10px;
+    padding: 0;
 }
 
 .money_block {
+	margin: auto;
 	font-style: italic;
     font-weight: 700;
     border-radius: 5px;
@@ -236,11 +243,6 @@
     font-size: 12px;
 }
 
-.content-ctr-news {
-	/* min-height: 232px; */
-	/* width: 221px; */
-	/* margin-bottom: 15px; */
-}
 
 .heading {
 	font-size: 14px;

@@ -20,8 +20,8 @@ $(document).ready(function(){
                         rubDol = (rubEur/response.rates.USD).toFixed(3);
 
                     $('.money_block').html(
-                        `<p><b>1 &#8364 = </b> ${rubEur} <b>&#8381</b></p>
-                        <p><b>1 &#36 = </b> ${rubDol} <b>&#8381</b></p>`);
+                        `<tr><td><b>1 &#8364 = </b></td><td>${rubEur} <b>&#8381</b></td></tr>
+                        <tr><td><b>1 &#36 = </b></td><td>${rubDol} <b>&#8381</b></td></tr>`);
                 // $('.money_block').text('Rub ' + response.rates.EUR);
                 // $('.money_block').text('Rub ' + response.rates.USD);
                 // // response();
