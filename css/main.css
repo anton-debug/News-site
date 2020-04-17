@@ -118,41 +118,6 @@
 	float: left;
 }
 
-
-/* Курс валют */
-
-.courses__many {
-	/* margin: 10px 0 0; */
-	text-align: center;
-	line-height: 20px;
-	/* background-color: #fff; */
-}
-
-.courses-many__heding {
-	margin: 0;
-	font-size: 20px;
-    
-}
-
-.money_block {
-	margin: 10px auto 10px;
-	font-style: italic;
-	font-weight: 900;
-	border-spacing: 20px 0px;
-    border-radius: 5px;
-    /* background: rgb(5, 142, 199);
-	background: linear-gradient(0deg, 
-			rgb(195, 237, 255) 0%, 
-			rgb(254, 254, 254) 100%); */
-}
-
-.money_block p {
-	margin: 0;
-}
-
-/* //// Курс валют */
-
-
 /* Левая колонка-----------------------end */
 
 /* Центральная колонка----------------start */

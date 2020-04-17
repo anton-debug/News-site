@@ -112,6 +112,24 @@
     cursor: pointer;
 }
 
+/* Курс валют */
+
+.courses__many {
+	text-align: center;
+	line-height: 20px;
+	color: #40b4ff96;
+	font-style: italic;
+	font-weight: 900;
+}
+
+
+.money_block {
+	margin: 10px auto 10px;
+	border-spacing: 20px 0px;
+}
+/* //// Курс валют */
+
+
 /* ============================================= */
 
 /* Навигационная часть в хедере =======
