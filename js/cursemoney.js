@@ -20,10 +20,10 @@ $(document).ready(function(){
                         euro = response.rates.EUR;
                         rub = response.rates.RUB;
                         
-                        rubEur = (rub * euro).toFixed(3);
-                        rubDol = (rubEur/dol).toFixed(3);
+                    let rubEur = (rub * euro).toFixed(3);
+                    let rubDol = (rubEur/dol).toFixed(3);
 
-                        MONEY_BLOCK.html(
+                    MONEY_BLOCK.html(
                         `<tr>
                             <td>
                                 <b>&#8364</b>
