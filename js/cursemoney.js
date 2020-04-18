@@ -1,11 +1,11 @@
 //fc3b3db0fb218a7820f0fe94b9403c98
 $(document).ready(function(){
     // $('.money').click(function(){
-        const API_FIXER = 'http://data.fixer.io/api/latest';
+        const API_FIXER = 'http://data.fixer.io/api/latest'; /* Жестко заданная константа, поэтому пишется в верхнем регистре */
 
-        const KEY_FIXER = 'fc3b3db0fb218a7820f0fe94b9403c98';
+        const KEY_FIXER = 'fc3b3db0fb218a7820f0fe94b9403c98'; /* Жестко заданная константа, поэтому пишется в верхнем регистре */
 
-        const MONEY_BLOCK = $('.js-money_block');
+        const MONEY_BLOCK = $('.js-money_block'); /* Жестко заданная константа, поэтому пишется в верхнем регистре */
 
         
 
@@ -16,7 +16,7 @@ $(document).ready(function(){
                 //     <p>EUR ${response.rates.EUR}</p>
                 //     <p>USD/EUR ${response.rates.USD}</p>`);
                     
-                    const dol = response.rates.USD;
+                    const dol = response.rates.USD; /* Эти константы можно записать в нижнем регистре, т.к. они неизвестны до загрузки страницы */
                         euro = response.rates.EUR;
                         rub = response.rates.RUB;
                         
