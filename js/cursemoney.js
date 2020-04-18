@@ -1,27 +1,29 @@
 //fc3b3db0fb218a7820f0fe94b9403c98
 $(document).ready(function(){
     // $('.money').click(function(){
-        const apiFixer = 'http://data.fixer.io/api/latest';
+        const API_FIXER = 'http://data.fixer.io/api/latest';
 
-        const keyFixer = {'access_key': 'fc3b3db0fb218a7820f0fe94b9403c98'};
+        const KEY_FIXER = 'fc3b3db0fb218a7820f0fe94b9403c98';
 
-        let moneyBlock = $('.money_block');
+        const MONEY_BLOCK = $('.js-money_block');
 
-        $.get(apiFixer, keyFixer, function(response){
+        
+
+        $.get(API_FIXER, {'access_key': KEY_FIXER}, function(response){
                 // $('.money_block').text(response.rates);
                 // $('.money_block').html(
                 //     `<p>RUB/EUR ${response.rates.RUB}</p>
                 //     <p>EUR ${response.rates.EUR}</p>
                 //     <p>USD/EUR ${response.rates.USD}</p>`);
                     
-                    let dol = response.rates.USD;
+                    const dol = response.rates.USD;
                         euro = response.rates.EUR;
                         rub = response.rates.RUB;
                         
                         rubEur = (rub * euro).toFixed(3);
                         rubDol = (rubEur/dol).toFixed(3);
 
-                    moneyBlock.html(
+                        MONEY_BLOCK.html(
                         `<tr>
                             <td>
                                 <b>&#8364</b>
