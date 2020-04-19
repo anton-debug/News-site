@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         const KEY_FIXER = 'fc3b3db0fb218a7820f0fe94b9403c98'; /* Жестко заданная константа, поэтому пишется в верхнем регистре */
 
-        const MONEY_BLOCK = $('.js-money_block'); /* Жестко заданная константа, поэтому пишется в верхнем регистре */
+        const money_block = $('.js-money_block'); /* Неизвестная до загрузки страницы константа, поэтому пишется в нижнем регистре */
 
         
 
@@ -20,10 +20,10 @@ $(document).ready(function(){
                         euro = response.rates.EUR;
                         rub = response.rates.RUB;
                         
-                    let rubEur = (rub * euro).toFixed(3);
-                    let rubDol = (rubEur/dol).toFixed(3);
+                    const rubEur = (rub * euro).toFixed(3);
+                    const rubDol = (rubEur/dol).toFixed(3);
 
-                    MONEY_BLOCK.html(
+                    money_block.html(
                         `<tr>
                             <td>
                                 <b>&#8364</b>
